@@ -1,0 +1,17 @@
+tmp/slc7_amd64_gcc820/src/L1Trigger/TrackerDTC/test/TrackerDTCTests/Analyzer.cc.o: \
+ src/L1Trigger/TrackerDTC/test/Analyzer.cc \
+ src/SimTracker/TrackTriggerAssociation/interface/TTClusterAssociationMap.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/DataFormats/L1TrackTrigger/interface/TTDTC.h \
+ src/DataFormats/L1TrackTrigger/interface/TTBV.h \
+ src/L1Trigger/TrackerDTC/interface/Setup.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTypes.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTStubAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTrackAssociationMap.h \
+ src/L1Trigger/TrackerDTC/interface/SetupRcd.h \
+ src/L1Trigger/TrackerDTC/interface/SensorModule.h \
+

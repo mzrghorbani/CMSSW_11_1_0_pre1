@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=SimTracker
+subdirs_src_SimTracker = src_SimTracker_TrackTriggerAssociation

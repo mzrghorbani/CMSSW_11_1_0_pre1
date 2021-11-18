@@ -1,0 +1,2172 @@
+// Do NOT change. Changes will be lost next time file is generated
+
+#define R__DICTIONARY_FILENAME tmpdIslc7_amd64_gcc820dIsrcdIDataFormatsdIL1TrackTriggerdIsrcdIDataFormatsL1TrackTriggerdIadIDataFormatsL1TrackTrigger_xr
+#define R__NO_DEPRECATION
+
+/*******************************************************************/
+#include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <assert.h>
+#define G__DICTIONARY
+#include "RConfig.h"
+#include "TClass.h"
+#include "TDictAttributeMap.h"
+#include "TInterpreter.h"
+#include "TROOT.h"
+#include "TBuffer.h"
+#include "TMemberInspector.h"
+#include "TInterpreter.h"
+#include "TVirtualMutex.h"
+#include "TError.h"
+
+#ifndef G__ROOT
+#define G__ROOT
+#endif
+
+#include "RtypesImp.h"
+#include "TIsAProxy.h"
+#include "TFileMergeInfo.h"
+#include <algorithm>
+#include "TCollectionProxyInfo.h"
+/*******************************************************************/
+
+#include "TDataMember.h"
+
+// The generated code does not explicitly qualifies STL entities
+namespace std {} using namespace std;
+
+// Header files passed as explicit arguments
+#include "src/DataFormats/L1TrackTrigger/src/classes.h"
+
+// Header files passed via #pragma extra_include
+
+namespace ROOT {
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary();
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass*);
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p = 0);
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t size, void *p);
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>::Class_Version(), "DataFormats/Common/interface/Ref.h", 148,
+                  typeid(::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>) );
+      instance.SetNew(&new_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetNewArray(&newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDelete(&delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDestructor(&destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      return GenerateInitInstanceLocal((::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0)->GetClass();
+      edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary();
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass*);
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p = 0);
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t size, void *p);
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>::Class_Version(), "DataFormats/Common/interface/Ref.h", 148,
+                  typeid(::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>) );
+      instance.SetNew(&new_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetNewArray(&newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDelete(&delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDestructor(&destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      return GenerateInitInstanceLocal((::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0)->GetClass();
+      edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary();
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass*);
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p = 0);
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t size, void *p);
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>::Class_Version(), "DataFormats/Common/interface/Ref.h", 148,
+                  typeid(::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>) );
+      instance.SetNew(&new_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetNewArray(&newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDelete(&delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      instance.SetDestructor(&destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)
+   {
+      return GenerateInitInstanceLocal((::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)0x0)->GetClass();
+      edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)
+   {
+      ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >", ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR);
+
+      ::ROOT::AddClassAlternate("edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >","edm::Wrapper<TTDTC::Streams>");
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlETTDTCgR_Dictionary();
+   static void edmcLcLWrapperlETTDTCgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlETTDTCgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlETTDTCgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlETTDTCgR(void *p);
+   static void deleteArray_edmcLcLWrapperlETTDTCgR(void *p);
+   static void destruct_edmcLcLWrapperlETTDTCgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<TTDTC>*)
+   {
+      ::edm::Wrapper<TTDTC> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<TTDTC>));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<TTDTC>", ::edm::Wrapper<TTDTC>::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<TTDTC>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlETTDTCgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<TTDTC>) );
+      instance.SetNew(&new_edmcLcLWrapperlETTDTCgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlETTDTCgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlETTDTCgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlETTDTCgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlETTDTCgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<TTDTC>*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<TTDTC>*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<TTDTC>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlETTDTCgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<TTDTC>*)0x0)->GetClass();
+      edmcLcLWrapperlETTDTCgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlETTDTCgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<vector<TTTrack_TrackWord> >*)
+   {
+      ::edm::Wrapper<vector<TTTrack_TrackWord> > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<vector<TTTrack_TrackWord> >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<vector<TTTrack_TrackWord> >", ::edm::Wrapper<vector<TTTrack_TrackWord> >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<vector<TTTrack_TrackWord> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<vector<TTTrack_TrackWord> >) );
+      instance.SetNew(&new_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR);
+
+      ::ROOT::AddClassAlternate("edm::Wrapper<vector<TTTrack_TrackWord> >","edm::Wrapper<std::vector<TTTrack_TrackWord> >");
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<vector<TTTrack_TrackWord> >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<vector<TTTrack_TrackWord> >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTTrack_TrackWord> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTTrack_TrackWord> >*)0x0)->GetClass();
+      edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary();
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >::Class_Version(), "DataFormats/Common/interface/Wrapper.h", 25,
+                  typeid(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >) );
+      instance.SetNew(&new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDelete(&delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)0x0)->GetClass();
+      edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::Class_Version(), "DataFormats/Common/interface/Ptr.h", 40,
+                  typeid(::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      return GenerateInitInstanceLocal((::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::Class_Version(), "DataFormats/Common/interface/DetSetVectorNew.h", 189,
+                  typeid(::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      return GenerateInitInstanceLocal((::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::Class_Version(), "DataFormats/Common/interface/DetSetVectorNew.h", 189,
+                  typeid(::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      return GenerateInitInstanceLocal((::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::Class_Version(), "DataFormats/Common/interface/DetSetVectorNew.h", 189,
+                  typeid(::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      return GenerateInitInstanceLocal((::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary();
+   static void TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass*);
+   static void *new_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p = 0);
+   static void *newArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t size, void *p);
+   static void delete_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void deleteArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void destruct_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", "DataFormats/L1TrackTrigger/interface/TTCluster.h", 27,
+                  typeid(::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >) );
+      instance.SetNew(&new_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetNewArray(&newArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDelete(&delete_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDestructor(&destruct_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      return GenerateInitInstanceLocal((::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0)->GetClass();
+      TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary();
+   static void TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass*);
+   static void *new_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p = 0);
+   static void *newArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t size, void *p);
+   static void delete_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void deleteArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void destruct_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", "DataFormats/L1TrackTrigger/interface/TTStub.h", 22,
+                  typeid(::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >) );
+      instance.SetNew(&new_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetNewArray(&newArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDelete(&delete_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDestructor(&destruct_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      return GenerateInitInstanceLocal((::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0)->GetClass();
+      TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *TTTrack_TrackWord_Dictionary();
+   static void TTTrack_TrackWord_TClassManip(TClass*);
+   static void *new_TTTrack_TrackWord(void *p = 0);
+   static void *newArray_TTTrack_TrackWord(Long_t size, void *p);
+   static void delete_TTTrack_TrackWord(void *p);
+   static void deleteArray_TTTrack_TrackWord(void *p);
+   static void destruct_TTTrack_TrackWord(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::TTTrack_TrackWord*)
+   {
+      ::TTTrack_TrackWord *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::TTTrack_TrackWord));
+      static ::ROOT::TGenericClassInfo 
+         instance("TTTrack_TrackWord", "DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h", 19,
+                  typeid(::TTTrack_TrackWord), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &TTTrack_TrackWord_Dictionary, isa_proxy, 4,
+                  sizeof(::TTTrack_TrackWord) );
+      instance.SetNew(&new_TTTrack_TrackWord);
+      instance.SetNewArray(&newArray_TTTrack_TrackWord);
+      instance.SetDelete(&delete_TTTrack_TrackWord);
+      instance.SetDeleteArray(&deleteArray_TTTrack_TrackWord);
+      instance.SetDestructor(&destruct_TTTrack_TrackWord);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::TTTrack_TrackWord*)
+   {
+      return GenerateInitInstanceLocal((::TTTrack_TrackWord*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::TTTrack_TrackWord*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *TTTrack_TrackWord_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::TTTrack_TrackWord*)0x0)->GetClass();
+      TTTrack_TrackWord_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void TTTrack_TrackWord_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary();
+   static void TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass*);
+   static void *new_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p = 0);
+   static void *newArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t size, void *p);
+   static void delete_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void deleteArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+   static void destruct_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", "DataFormats/L1TrackTrigger/interface/TTTrack.h", 26,
+                  typeid(::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >) );
+      instance.SetNew(&new_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetNewArray(&newArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDelete(&delete_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      instance.SetDestructor(&destruct_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)
+   {
+      return GenerateInitInstanceLocal((::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)0x0)->GetClass();
+      TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   static TClass *TTDTC_Dictionary();
+   static void TTDTC_TClassManip(TClass*);
+   static void *new_TTDTC(void *p = 0);
+   static void *newArray_TTDTC(Long_t size, void *p);
+   static void delete_TTDTC(void *p);
+   static void deleteArray_TTDTC(void *p);
+   static void destruct_TTDTC(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const ::TTDTC*)
+   {
+      ::TTDTC *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(::TTDTC));
+      static ::ROOT::TGenericClassInfo 
+         instance("TTDTC", "DataFormats/L1TrackTrigger/interface/TTDTC.h", 17,
+                  typeid(::TTDTC), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &TTDTC_Dictionary, isa_proxy, 4,
+                  sizeof(::TTDTC) );
+      instance.SetNew(&new_TTDTC);
+      instance.SetNewArray(&newArray_TTDTC);
+      instance.SetDelete(&delete_TTDTC);
+      instance.SetDeleteArray(&deleteArray_TTDTC);
+      instance.SetDestructor(&destruct_TTDTC);
+      return &instance;
+   }
+   TGenericClassInfo *GenerateInitInstance(const ::TTDTC*)
+   {
+      return GenerateInitInstanceLocal((::TTDTC*)0);
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const ::TTDTC*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *TTDTC_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const ::TTDTC*)0x0)->GetClass();
+      TTDTC_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void TTDTC_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> : new ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>;
+   }
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements] : new ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete ((::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete [] ((::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      typedef ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> : new ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>;
+   }
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements] : new ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete ((::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete [] ((::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      typedef ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> : new ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>;
+   }
+   static void *newArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements] : new ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete ((::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void deleteArray_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      delete [] ((::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>*)p);
+   }
+   static void destruct_edmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgR(void *p) {
+      typedef ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > > : new ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >[nElements] : new ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEvectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlETTDTCgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<TTDTC> : new ::edm::Wrapper<TTDTC>;
+   }
+   static void *newArray_edmcLcLWrapperlETTDTCgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<TTDTC>[nElements] : new ::edm::Wrapper<TTDTC>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlETTDTCgR(void *p) {
+      delete ((::edm::Wrapper<TTDTC>*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlETTDTCgR(void *p) {
+      delete [] ((::edm::Wrapper<TTDTC>*)p);
+   }
+   static void destruct_edmcLcLWrapperlETTDTCgR(void *p) {
+      typedef ::edm::Wrapper<TTDTC> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<TTDTC>
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTTrack_TrackWord> > : new ::edm::Wrapper<vector<TTTrack_TrackWord> >;
+   }
+   static void *newArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTTrack_TrackWord> >[nElements] : new ::edm::Wrapper<vector<TTTrack_TrackWord> >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p) {
+      delete ((::edm::Wrapper<vector<TTTrack_TrackWord> >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<vector<TTTrack_TrackWord> >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEvectorlETTTrack_TrackWordgRsPgR(void *p) {
+      typedef ::edm::Wrapper<vector<TTTrack_TrackWord> > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<vector<TTTrack_TrackWord> >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEvectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEvectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEvectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > : new ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements] : new ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements] : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements] : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >;
+   }
+   static void *newArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements] : new ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void deleteArray_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      delete [] ((::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >*)p);
+   }
+   static void destruct_edmcLcLWrapperlEedmcLcLReflEedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRsPgR(void *p) {
+      typedef ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_edmcLcLPtrlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_edmNewcLcLDetSetVectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_edmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_edmNewcLcLDetSetVectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      return  p ? new(p) ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > : new ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >;
+   }
+   static void *newArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? new(p) ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements] : new ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete ((::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void deleteArray_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete [] ((::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void destruct_TTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      typedef ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      return  p ? new(p) ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > : new ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >;
+   }
+   static void *newArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? new(p) ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements] : new ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete ((::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void deleteArray_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete [] ((::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void destruct_TTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      typedef ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_TTTrack_TrackWord(void *p) {
+      return  p ? new(p) ::TTTrack_TrackWord : new ::TTTrack_TrackWord;
+   }
+   static void *newArray_TTTrack_TrackWord(Long_t nElements, void *p) {
+      return p ? new(p) ::TTTrack_TrackWord[nElements] : new ::TTTrack_TrackWord[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_TTTrack_TrackWord(void *p) {
+      delete ((::TTTrack_TrackWord*)p);
+   }
+   static void deleteArray_TTTrack_TrackWord(void *p) {
+      delete [] ((::TTTrack_TrackWord*)p);
+   }
+   static void destruct_TTTrack_TrackWord(void *p) {
+      typedef ::TTTrack_TrackWord current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::TTTrack_TrackWord
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      return  p ? new(p) ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > : new ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >;
+   }
+   static void *newArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? new(p) ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements] : new ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete ((::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void deleteArray_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      delete [] ((::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >*)p);
+   }
+   static void destruct_TTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgR(void *p) {
+      typedef ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_TTDTC(void *p) {
+      return  p ? new(p) ::TTDTC : new ::TTDTC;
+   }
+   static void *newArray_TTDTC(Long_t nElements, void *p) {
+      return p ? new(p) ::TTDTC[nElements] : new ::TTDTC[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_TTDTC(void *p) {
+      delete ((::TTDTC*)p);
+   }
+   static void deleteArray_TTDTC(void *p) {
+      delete [] ((::TTDTC*)p);
+   }
+   static void destruct_TTDTC(void *p) {
+      typedef ::TTDTC current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class ::TTDTC
+
+namespace ROOT {
+   static TClass *vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_Dictionary();
+   static void vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p);
+   static void deleteArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p);
+   static void destruct_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >*)
+   {
+      vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >", -2, "vector", 339,
+                  typeid(vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >) );
+      instance.SetNew(&new_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >*)0x0)->GetClass();
+      vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > : new vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >;
+   }
+   static void *newArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >[nElements] : new vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p) {
+      delete ((vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >*)p);
+   }
+   static void deleteArray_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p) {
+      delete [] ((vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >*)p);
+   }
+   static void destruct_vectorlEvectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgRsPgR(void *p) {
+      typedef vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >
+
+namespace ROOT {
+   static TClass *vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_Dictionary();
+   static void vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_TClassManip(TClass*);
+   static void *new_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p = 0);
+   static void *newArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(Long_t size, void *p);
+   static void delete_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p);
+   static void deleteArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p);
+   static void destruct_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >*)
+   {
+      vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >", -2, "vector", 339,
+                  typeid(vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >) );
+      instance.SetNew(&new_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR);
+      instance.SetNewArray(&newArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR);
+      instance.SetDelete(&delete_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR);
+      instance.SetDestructor(&destruct_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >*)0x0)->GetClass();
+      vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > : new vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >;
+   }
+   static void *newArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >[nElements] : new vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p) {
+      delete ((vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >*)p);
+   }
+   static void deleteArray_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p) {
+      delete [] ((vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >*)p);
+   }
+   static void destruct_vectorlEpairlEedmcLcLReflEedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcOTTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRcOedmNewcLcLDetSetVectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgRcLcLFindForDetSetVectorgRcObitsetlE64gRsPgRsPgR(void *p) {
+      typedef vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > >
+
+namespace ROOT {
+   static TClass *vectorlETTTrack_TrackWordgR_Dictionary();
+   static void vectorlETTTrack_TrackWordgR_TClassManip(TClass*);
+   static void *new_vectorlETTTrack_TrackWordgR(void *p = 0);
+   static void *newArray_vectorlETTTrack_TrackWordgR(Long_t size, void *p);
+   static void delete_vectorlETTTrack_TrackWordgR(void *p);
+   static void deleteArray_vectorlETTTrack_TrackWordgR(void *p);
+   static void destruct_vectorlETTTrack_TrackWordgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<TTTrack_TrackWord>*)
+   {
+      vector<TTTrack_TrackWord> *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<TTTrack_TrackWord>));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<TTTrack_TrackWord>", -2, "vector", 339,
+                  typeid(vector<TTTrack_TrackWord>), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlETTTrack_TrackWordgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<TTTrack_TrackWord>) );
+      instance.SetNew(&new_vectorlETTTrack_TrackWordgR);
+      instance.SetNewArray(&newArray_vectorlETTTrack_TrackWordgR);
+      instance.SetDelete(&delete_vectorlETTTrack_TrackWordgR);
+      instance.SetDeleteArray(&deleteArray_vectorlETTTrack_TrackWordgR);
+      instance.SetDestructor(&destruct_vectorlETTTrack_TrackWordgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<TTTrack_TrackWord> >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<TTTrack_TrackWord>*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlETTTrack_TrackWordgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<TTTrack_TrackWord>*)0x0)->GetClass();
+      vectorlETTTrack_TrackWordgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlETTTrack_TrackWordgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlETTTrack_TrackWordgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTTrack_TrackWord> : new vector<TTTrack_TrackWord>;
+   }
+   static void *newArray_vectorlETTTrack_TrackWordgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTTrack_TrackWord>[nElements] : new vector<TTTrack_TrackWord>[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlETTTrack_TrackWordgR(void *p) {
+      delete ((vector<TTTrack_TrackWord>*)p);
+   }
+   static void deleteArray_vectorlETTTrack_TrackWordgR(void *p) {
+      delete [] ((vector<TTTrack_TrackWord>*)p);
+   }
+   static void destruct_vectorlETTTrack_TrackWordgR(void *p) {
+      typedef vector<TTTrack_TrackWord> current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<TTTrack_TrackWord>
+
+namespace ROOT {
+   static TClass *vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", -2, "vector", 339,
+                  typeid(vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_vectorlETTTracklEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   static TClass *vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", -2, "vector", 339,
+                  typeid(vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_vectorlETTStublEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace ROOT {
+   static TClass *vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary();
+   static void vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass*);
+   static void *new_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p = 0);
+   static void *newArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t size, void *p);
+   static void delete_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void deleteArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+   static void destruct_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p);
+
+   // Function generating the singleton type initializer
+   static TGenericClassInfo *GenerateInitInstanceLocal(const vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)
+   {
+      vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > *ptr = 0;
+      static ::TVirtualIsAProxy* isa_proxy = new ::TIsAProxy(typeid(vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >));
+      static ::ROOT::TGenericClassInfo 
+         instance("vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", -2, "vector", 339,
+                  typeid(vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >), ::ROOT::Internal::DefineBehavior(ptr, ptr),
+                  &vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary, isa_proxy, 4,
+                  sizeof(vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >) );
+      instance.SetNew(&new_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetNewArray(&newArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDelete(&delete_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDeleteArray(&deleteArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.SetDestructor(&destruct_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR);
+      instance.AdoptCollectionProxyInfo(TCollectionProxyInfo::Generate(TCollectionProxyInfo::Pushback< vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >()));
+      return &instance;
+   }
+   // Static variable to force the class initialization
+   static ::ROOT::TGenericClassInfo *_R__UNIQUE_DICT_(Init) = GenerateInitInstanceLocal((const vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0); R__UseDummy(_R__UNIQUE_DICT_(Init));
+
+   // Dictionary for non-ClassDef classes
+   static TClass *vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_Dictionary() {
+      TClass* theClass =::ROOT::GenerateInitInstanceLocal((const vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)0x0)->GetClass();
+      vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(theClass);
+   return theClass;
+   }
+
+   static void vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR_TClassManip(TClass* ){
+   }
+
+} // end of namespace ROOT
+
+namespace ROOT {
+   // Wrappers around operator new
+   static void *new_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      return  p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > : new vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >;
+   }
+   static void *newArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(Long_t nElements, void *p) {
+      return p ? ::new((::ROOT::Internal::TOperatorNewHelper*)p) vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements] : new vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >[nElements];
+   }
+   // Wrapper around operator delete
+   static void delete_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete ((vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void deleteArray_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      delete [] ((vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >*)p);
+   }
+   static void destruct_vectorlETTClusterlEedmcLcLReflEedmcLcLDetSetVectorlEPhase2TrackerDigigRcOPhase2TrackerDigicOedmcLcLrefhelpercLcLFindForDetSetVectorlEPhase2TrackerDigigRsPgRsPgRsPgR(void *p) {
+      typedef vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > current_t;
+      ((current_t*)p)->~current_t();
+   }
+} // end of namespace ROOT for class vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >
+
+namespace {
+  void TriggerDictionaryInitialization_DataFormatsL1TrackTrigger_xr_Impl() {
+    static const char* headers[] = {
+0    };
+    static const char* includePaths[] = {
+"/afs/cern.ch/user/m/mghorban/workspace/cpp/CMSSW_11_1_0_pre1/src",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/cms/cmssw/CMSSW_11_1_0_pre1/src",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/lcg/root/6.18.04-nmpfii/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/pcre/8.37-pafccj/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/boost/1.67.0-pafccj/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/bz2lib/1.0.6-pafccj/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/clhep/2.4.0.0-nmpfii/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/gsl/2.2.1-nmpfii2/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/libuuid/2.34/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/tbb/2019_U9/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/xz/5.2.4/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/zlib-x86_64/1.2.11-pafccj/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/md5/1.0.0-pafccj/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/OpenBLAS/0.3.5-nmpfii2/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/external/tinyxml2/6.2.0-nmpfii/include",
+"/cvmfs/cms.cern.ch/slc7_amd64_gcc820/lcg/root/6.18.04-nmpfii/include",
+"/afs/cern.ch/user/m/mghorban/workspace/cpp/CMSSW_11_1_0_pre1/",
+0
+    };
+    static const char* fwdDeclCode = R"DICTFWDDCLS(
+#line 1 "DataFormatsL1TrackTrigger_xr dictionary forward declarations' payload"
+#pragma clang diagnostic ignored "-Wkeyword-compat"
+#pragma clang diagnostic ignored "-Wignored-attributes"
+#pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+extern int __Cling_Autoloading_Map;
+class __attribute__((annotate("$clingAutoload$DataFormats/Phase2TrackerDigi/interface/Phase2TrackerDigi.h")))  __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTTypes.h")))  Phase2TrackerDigi;
+namespace edm{template <class T> class __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVector.h")))  __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTTypes.h")))  DetSetVector;
+}
+namespace edm{namespace refhelper{template <typename T> class __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVector.h")))  __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTTypes.h")))  FindForDetSetVector;
+}}
+namespace edm{namespace refhelper{template <typename C, typename T> struct __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/RefTraits.h")))  __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVectorNew.h")))  FindUsingAdvance;
+}}
+namespace edm{namespace refhelper{template <typename REFV> struct __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/RefTraits.h")))  __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVectorNew.h")))  FindRefVectorUsingAdvance;
+}}
+namespace edm{namespace refhelper{template <typename C, typename T> struct __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/RefTraits.h")))  __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVectorNew.h")))  FindTrait;
+}}
+namespace edm{namespace refhelper{template <typename C> struct __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/RefTraits.h")))  __attribute__((annotate("$clingAutoload$DataFormats/Common/interface/DetSetVectorNew.h")))  ValueTrait;
+}}
+class __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTDTC.h")))  TTDTC;
+class __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h")))  __attribute__((annotate("$clingAutoload$DataFormats/L1TrackTrigger/interface/TTTypes.h")))  TTTrack_TrackWord;
+namespace std{template <typename _Tp> class __attribute__((annotate("$clingAutoload$bits/allocator.h")))  __attribute__((annotate("$clingAutoload$string")))  allocator;
+}
+)DICTFWDDCLS";
+    static const char* payloadCode = R"DICTPAYLOAD(
+#line 1 "DataFormatsL1TrackTrigger_xr dictionary payload"
+
+#ifndef CMS_DICT_IMPL
+  #define CMS_DICT_IMPL 1
+#endif
+#ifndef _REENTRANT
+  #define _REENTRANT 1
+#endif
+#ifndef GNUSOURCE
+  #define GNUSOURCE 1
+#endif
+#ifndef __STRICT_ANSI__
+  #define __STRICT_ANSI__ 1
+#endif
+#ifndef GNU_GCC
+  #define GNU_GCC 1
+#endif
+#ifndef _GNU_SOURCE
+  #define _GNU_SOURCE 1
+#endif
+#ifndef TBB_USE_GLIBCXX_VERSION
+  #define TBB_USE_GLIBCXX_VERSION 80301
+#endif
+#ifndef BOOST_SPIRIT_THREADSAFE
+  #define BOOST_SPIRIT_THREADSAFE 1
+#endif
+#ifndef PHOENIX_THREADSAFE
+  #define PHOENIX_THREADSAFE 1
+#endif
+#ifndef CMSSW_GIT_HASH
+  #define CMSSW_GIT_HASH "CMSSW_11_1_0_pre1"
+#endif
+#ifndef PROJECT_NAME
+  #define PROJECT_NAME "CMSSW"
+#endif
+#ifndef PROJECT_VERSION
+  #define PROJECT_VERSION "CMSSW_11_1_0_pre1"
+#endif
+#ifndef CMSSW_REFLEX_DICT
+  #define CMSSW_REFLEX_DICT 1
+#endif
+
+#define _BACKWARD_BACKWARD_WARNING_H
+// Inline headers
+/*! \brief   Definition of all the relevant data types
+ *  \details Herw we declare instances of all the relevant types. 
+ *
+ *  \author Andrew W. Rose
+ *  \author Nicola Pozzobon
+ *  \date   2013, Jul 12
+ *
+ */
+
+#ifndef L1TRACKTRIGGER_CLASSES_H
+#define L1TRACKTRIGGER_CLASSES_H
+
+#include "DataFormats/Common/interface/Wrapper.h"
+#include "DataFormats/Common/interface/DetSetVectorNew.h"
+#include "DataFormats/L1TrackTrigger/interface/TTTypes.h"
+#include "DataFormats/L1TrackTrigger/interface/TTDTC.h"
+#include "DataFormats/Common/interface/RefVector.h"
+#include "DataFormats/Common/interface/RefProd.h"
+
+#endif
+
+#undef  _BACKWARD_BACKWARD_WARNING_H
+)DICTPAYLOAD";
+    static const char* classesHeaders[]={
+"TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", payloadCode, "@",
+"TTDTC", payloadCode, "@",
+"TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", payloadCode, "@",
+"TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >", payloadCode, "@",
+"TTTrack_TrackWord", payloadCode, "@",
+"edm::Ptr<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", payloadCode, "@",
+"edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", payloadCode, "@",
+"edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", payloadCode, "@",
+"edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>", payloadCode, "@",
+"edm::Wrapper<TTDTC::Streams>", payloadCode, "@",
+"edm::Wrapper<TTDTC>", payloadCode, "@",
+"edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", payloadCode, "@",
+"edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", payloadCode, "@",
+"edm::Wrapper<edm::Ref<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector> >", payloadCode, "@",
+"edm::Wrapper<edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<std::vector<TTTrack_TrackWord> >", payloadCode, "@",
+"edm::Wrapper<vector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<vector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<vector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > > >", payloadCode, "@",
+"edm::Wrapper<vector<TTTrack_TrackWord> >", payloadCode, "@",
+"edm::Wrapper<vector<vector<pair<edm::Ref<edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >,TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > >,edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >::FindForDetSetVector>,bitset<64> > > > >", payloadCode, "@",
+"edmNew::DetSetVector<TTCluster<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", payloadCode, "@",
+"edmNew::DetSetVector<TTStub<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", payloadCode, "@",
+"edmNew::DetSetVector<TTTrack<edm::Ref<edm::DetSetVector<Phase2TrackerDigi>,Phase2TrackerDigi,edm::refhelper::FindForDetSetVector<Phase2TrackerDigi> > > >", payloadCode, "@",
+nullptr};
+
+    static bool isInitialized = false;
+    if (!isInitialized) {
+      TROOT::RegisterModule("DataFormatsL1TrackTrigger_xr",
+        headers, includePaths, payloadCode, fwdDeclCode,
+        TriggerDictionaryInitialization_DataFormatsL1TrackTrigger_xr_Impl, {}, classesHeaders, /*has no C++ module*/false);
+      isInitialized = true;
+    }
+  }
+  static struct DictInit {
+    DictInit() {
+      TriggerDictionaryInitialization_DataFormatsL1TrackTrigger_xr_Impl();
+    }
+  } __TheDictionaryInitializer;
+}
+void TriggerDictionaryInitialization_DataFormatsL1TrackTrigger_xr() {
+  TriggerDictionaryInitialization_DataFormatsL1TrackTrigger_xr_Impl();
+}

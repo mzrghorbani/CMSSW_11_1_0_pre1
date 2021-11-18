@@ -1,0 +1,48 @@
+tmp/slc7_amd64_gcc820/src/SimTracker/TrackTriggerAssociation/src/SimTrackerTrackTriggerAssociation/a/SimTrackerTrackTriggerAssociation_xr.cc: \
+ src/SimTracker/TrackTriggerAssociation/src/classes.h \
+ src/SimTracker/TrackTriggerAssociation/src/classes.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTStubAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTClusterAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTrackAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/StubAssociation.h \
+ src/L1Trigger/TrackerDTC/interface/Setup.h \
+ src/DataFormats/L1TrackTrigger/interface/TTDTC.h \
+ src/DataFormats/L1TrackTrigger/interface/TTBV.h \
+ src/L1Trigger/TrackerDTC/interface/SetupRcd.h \
+ src/L1Trigger/TrackerDTC/interface/SensorModule.h
+
+tmp/slc7_amd64_gcc820/src/SimTracker/TrackTriggerAssociation/src/SimTrackerTrackTriggerAssociation/TTTrackAssociationMap.cc.o: \
+ src/SimTracker/TrackTriggerAssociation/src/TTTrackAssociationMap.cc \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTrackAssociationMap.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTStubAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTClusterAssociationMap.h
+
+tmp/slc7_amd64_gcc820/src/SimTracker/TrackTriggerAssociation/src/SimTrackerTrackTriggerAssociation/StubAssociation.cc.o: \
+ src/SimTracker/TrackTriggerAssociation/src/StubAssociation.cc \
+ src/SimTracker/TrackTriggerAssociation/interface/StubAssociation.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTStubAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTClusterAssociationMap.h \
+ src/SimTracker/TrackTriggerAssociation/interface/TTTrackAssociationMap.h \
+ src/L1Trigger/TrackerDTC/interface/Setup.h \
+ src/DataFormats/L1TrackTrigger/interface/TTDTC.h \
+ src/DataFormats/L1TrackTrigger/interface/TTBV.h \
+ src/L1Trigger/TrackerDTC/interface/SetupRcd.h \
+ src/L1Trigger/TrackerDTC/interface/SensorModule.h
+

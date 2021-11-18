@@ -1,0 +1,2 @@
+ALL_PACKAGES += L1Trigger/TrackerTFP
+subdirs_src_L1Trigger_TrackerTFP := src_L1Trigger_TrackerTFP_interface src_L1Trigger_TrackerTFP_plugins src_L1Trigger_TrackerTFP_python src_L1Trigger_TrackerTFP_src src_L1Trigger_TrackerTFP_test

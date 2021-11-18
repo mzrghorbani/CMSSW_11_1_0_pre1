@@ -1,0 +1,29 @@
+tmp/slc7_amd64_gcc820/src/DataFormats/L1TrackTrigger/src/DataFormatsL1TrackTrigger/a/DataFormatsL1TrackTrigger_xr.cc: \
+ src/DataFormats/L1TrackTrigger/src/classes.h \
+ src/DataFormats/L1TrackTrigger/src/classes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/DataFormats/L1TrackTrigger/interface/TTDTC.h \
+ src/DataFormats/L1TrackTrigger/interface/TTBV.h \
+
+tmp/slc7_amd64_gcc820/src/DataFormats/L1TrackTrigger/src/DataFormatsL1TrackTrigger/TTDTC.cc.o: \
+ src/DataFormats/L1TrackTrigger/src/TTDTC.cc \
+ src/DataFormats/L1TrackTrigger/interface/TTDTC.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTypes.h \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+ src/DataFormats/L1TrackTrigger/interface/TTStub.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack.h \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+ src/DataFormats/L1TrackTrigger/interface/TTBV.h
+
+tmp/slc7_amd64_gcc820/src/DataFormats/L1TrackTrigger/src/DataFormatsL1TrackTrigger/TTCluster.cc.o: \
+ src/DataFormats/L1TrackTrigger/src/TTCluster.cc \
+ src/DataFormats/L1TrackTrigger/interface/TTCluster.h \
+
+tmp/slc7_amd64_gcc820/src/DataFormats/L1TrackTrigger/src/DataFormatsL1TrackTrigger/TTTrack_TrackWord.cc.o: \
+ src/DataFormats/L1TrackTrigger/src/TTTrack_TrackWord.cc \
+ src/DataFormats/L1TrackTrigger/interface/TTTrack_TrackWord.h \
+
